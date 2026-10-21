@@ -11,7 +11,7 @@ public class LibraryService {
     public void listBooks() {
         int index = 1;
         for (Book book : books)
-            System.out.printf("[%d] - %s - %s - %s",
+            System.out.printf("[%d] - %s - %s - %s\n",
                     index++,
                     book.getTitle(),
                     book.getAuthor(),
