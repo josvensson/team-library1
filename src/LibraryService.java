@@ -1,2 +1,2 @@
-public class libraryService {
+public class LibraryService {
 }
